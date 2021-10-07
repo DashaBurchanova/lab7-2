@@ -1,0 +1,68 @@
+body {
+background-color: #4a011c;
+font-family: oswald;
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+color: aliceblue;
+}
+
+a {
+    color: #d4c711;
+}
+
+.container {
+background: url(img/bg.jpg);
+-webkit-background-size: cover;
+background-size: cover;
+top: 0;
+left: 0;
+width: 100%;
+height: 100vh;
+margin: 0 auto;
+}
+
+.title {
+font-family: 'Oswald', sans-serif;
+font-size: 70px;
+text-align: center;
+background: rgba(0, 0, 0, 0.47);
+font-weight: 700;
+color: aliceblue;
+letter-spacing: 10px;
+width: 100%;
+position: absolute;
+margin-top: 400px;
+margin-left: 0;
+    text-transform: uppercase;
+}
+
+.text {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 45px;
+    margin-right: 45px;
+    
+}
+
+.recipe {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-left: 100px;
+    
+}
+
+.recipe__text {
+    font-size: 32px;
+    font-weight: 700;
+    padding-left: 70px;
+    width: 300px;
+}
+
+.url {
+    font-size: 32px;
+    padding-top: 200px;
+}
